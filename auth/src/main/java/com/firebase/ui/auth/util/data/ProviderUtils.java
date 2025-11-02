@@ -151,7 +151,7 @@ public final class ProviderUtils {
             case FacebookAuthProvider.PROVIDER_ID:
                 return AuthUI.getApplicationContext().getString(R.string.fui_idp_name_facebook);
             case TwitterAuthProvider.PROVIDER_ID:
-                return AuthUI.getApplicationContext().getString(R.string.fui_idp_name_twitter);
+                return AuthUI.getApplicationContext().getString(R.string.fui_idp_name_x);
             case GithubAuthProvider.PROVIDER_ID:
                 return AuthUI.getApplicationContext().getString(R.string.fui_idp_name_github);
             case PhoneAuthProvider.PROVIDER_ID:

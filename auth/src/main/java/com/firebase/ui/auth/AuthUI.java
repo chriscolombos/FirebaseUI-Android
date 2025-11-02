@@ -1035,9 +1035,10 @@ public final class AuthUI {
 
             public TwitterBuilder() {
                 super(TwitterAuthProvider.PROVIDER_ID, PROVIDER_NAME,
-                        R.layout.fui_idp_button_twitter);
+                        R.layout.fui_idp_button_x);
             }
         }
+
 
         /**
          * {@link IdpConfig} builder for the GitHub provider.
